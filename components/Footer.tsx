@@ -12,12 +12,12 @@ export function Footer(){
          </div>
       </div>
 
-      <div className='flex flex-col items-certer gap-2'>
+      <div className='flex items-center flex-col items-certer gap-2'>
         <div className='flex items-center gap-6'>
           <Shuffle size={20} className='text-zinc-200'/>
           <SkipBack size={20} className='text-zinc-200'/>
 
-        <button className='w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-white text-black'>
+        <button className='w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black'>
           <Play />
         </button>
 
